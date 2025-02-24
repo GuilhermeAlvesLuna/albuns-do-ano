@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(122, 78, 58); */
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(58, 82, 102);
+    margin-bottom: 20px;
+}
+
+.nav-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 231, 242);
+    text-decoration: none;
+    height: 30px;
+    width: 8rem;
+}
+
+.nav-bar i {
+    margin-right: 4px;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.info-album {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.capa-titulos-e-artista {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(58, 82, 102);
+}
+
+.capa-titulos-e-artista h1, .capa-titulos-e-artista a {
+    color: rgb(218, 231, 242);
+    text-decoration: none;
+}
+
+.capa-titulos-e-artista h1 {
+    font-size: 35px;
+}
+
+.capa-titulos-e-artista a {
+    font-size: 20px;
+}
+
+.capa-titulos-e-artista img {
+    border-radius: 15px;
+}
+
+.verso-de-abertura, .verso-de-encerramento, .melhor-musica, .melhor-verso, .melhor-performance, .faixas, .comentarios {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(58, 82, 102);
+    color: rgb(218, 231, 242);
+}
+
+.verso-de-abertura h2, .verso-de-encerramento h2, .melhor-musica h2, .melhor-verso h2, .melhor-performance h2, .faixas h2, .comentarios h2 {
+    border-bottom: 4px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.colunas-verso-de-abertura, .colunas-verso-de-encerramento, .colunas-melhor-verso {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.melhor-musica a, .faixas a {
+    margin-bottom: 10px;
+    color: rgb(218, 231, 242);
+    text-decoration: none;
+}
+
+.melhor-musica a.link-musica, .faixas a {
+    display: flex;
+}
+
+.melhor-musica img, .faixas img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+

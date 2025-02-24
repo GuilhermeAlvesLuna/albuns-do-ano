@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.nav-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    width: 8rem;
+}
+
+.nav-bar a:hover {
+    background-color: darkred;
+}
+
+.nav-bar i {
+    margin-right: 4px;
+}
+
+.info-album {
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+    width: 60%;
+    border: 1px solid blue;
+}
+
+.cabecalho-album {
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid orange;
+    text-align: center;
+}
+
+.texto-cabecalho-album-esquerda {
+    text-align: left;
+}
+
+.cabecalho-album img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.texto-cabecalho-album-esquerda p {
+    font-style: italic;
+}
+
+.melhores {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid violet;
+}
+
+.faixas {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid green;
+}
