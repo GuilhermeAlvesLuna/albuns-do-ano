@@ -4,25 +4,28 @@
     font-family: 'Kumbh Sans';
 }
 
-body{
+/* body{
     background-color: rgb(0, 0, 0);
-    /* background-color: rgb(122, 78, 58); */
-}
+} */
 
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 40px;
-    background-color: rgb(58, 82, 102);
+    /* background-color: rgb(58, 82, 102); */
     margin-bottom: 20px;
+}
+
+a, h1, h2, p, li {
+    /* color: rgb(218, 231, 242); */
+    text-decoration: none;
 }
 
 .nav-bar a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(218, 231, 242);
     text-decoration: none;
     height: 30px;
     width: 8rem;
@@ -32,9 +35,9 @@ body{
     margin-right: 4px;
 }
 
-.nav-bar a:hover {
+/* .nav-bar a:hover {
     background-color: rgb(0, 0, 0);
-}
+} */
 
 .info-album {
     margin: auto;
@@ -47,12 +50,7 @@ body{
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 15px;
-    background-color: rgb(58, 82, 102);
-}
-
-.capa-titulos-e-artista h1, .capa-titulos-e-artista a {
-    color: rgb(218, 231, 242);
-    text-decoration: none;
+    /* background-color: rgb(58, 82, 102); */
 }
 
 .capa-titulos-e-artista h1 {
@@ -64,34 +62,45 @@ body{
 }
 
 .capa-titulos-e-artista img {
+    height: auto;
+    width: 220px;
     border-radius: 15px;
 }
 
-.verso-de-abertura, .verso-de-encerramento, .melhor-musica, .melhor-verso, .melhor-performance, .faixas, .comentarios {
+.verso-de-abertura, .verso-de-encerramento, .melhor-musica, .melhor-verso,
+.melhor-performance, .faixas, .comentarios {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 15px;
-    background-color: rgb(58, 82, 102);
-    color: rgb(218, 231, 242);
+    /* background-color: rgb(58, 82, 102); */
 }
 
 .verso-de-abertura h2, .verso-de-encerramento h2, .melhor-musica h2, .melhor-verso h2, .melhor-performance h2, .faixas h2, .comentarios h2 {
-    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 100%;
+    /* border-bottom: 4px solid rgb(0, 0, 0); */
     margin-bottom: 10px;
     padding: 2px;
 }
 
-.colunas-verso-de-abertura, .colunas-verso-de-encerramento, .colunas-melhor-verso {
-    display: flex;
-    width: 100%;
-    gap: 30px;
+.coluna-verso-de-abertura-portugues, .coluna-verso-de-abertura-ingles,
+.coluna-verso-de-encerramento-portugues, .coluna-verso-de-encerramento-ingles,
+.coluna-melhor-verso-portugues, .coluna-melhor-verso-ingles {
+    width: 50%;
+}
+
+.coluna-verso-de-abertura-ingles p, .coluna-verso-de-abertura-portugues p,
+.coluna-verso-de-encerramento-portugues p, .coluna-verso-de-encerramento-ingles p,
+.coluna-melhor-verso-portugues p, .coluna-melhor-verso-ingles p {
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
 .melhor-musica a, .faixas a {
+    width: 100%;
     margin-bottom: 10px;
-    color: rgb(218, 231, 242);
     text-decoration: none;
 }
 
@@ -105,3 +114,11 @@ body{
     height: 20px;
 }
 
+.musica-melhor-verso{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+iframe {
+    margin-bottom: 15px;
+}
