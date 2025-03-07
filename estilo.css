@@ -75,7 +75,7 @@ a, h1, h2, p, li {
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 15px;
-    /* background-color: rgb(58, 82, 102); */
+    justify-content: space-between;
 }
 
 .verso-de-abertura h2, .verso-de-encerramento h2, .melhor-musica h2, .melhor-verso h2, .melhor-performance h2, .faixas h2, .comentarios h2 {
@@ -85,17 +85,22 @@ a, h1, h2, p, li {
     padding: 2px;
 }
 
+.musica-verso-de-abertura, .musica-verso-de-encerramento {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 .coluna-verso-de-abertura-portugues, .coluna-verso-de-abertura-ingles,
 .coluna-verso-de-encerramento-portugues, .coluna-verso-de-encerramento-ingles,
 .coluna-melhor-verso-portugues, .coluna-melhor-verso-ingles {
-    width: 50%;
+    width: 48%;
 }
 
 .coluna-verso-de-abertura-ingles p, .coluna-verso-de-abertura-portugues p,
 .coluna-verso-de-encerramento-portugues p, .coluna-verso-de-encerramento-ingles p,
 .coluna-melhor-verso-portugues p, .coluna-melhor-verso-ingles p {
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .melhor-musica a, .faixas a {
@@ -106,6 +111,10 @@ a, h1, h2, p, li {
 
 .melhor-musica a.link-musica, .faixas a {
     display: flex;
+}
+
+.melhor-musica p {
+    margin-bottom: 20px;
 }
 
 .melhor-musica img, .faixas img {
